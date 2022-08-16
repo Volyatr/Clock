@@ -1,0 +1,20 @@
+.second {
+  position: absolute;
+}
+.second .seconds {
+  width: 230px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+}
+.second .seconds::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 140px;
+  background-color: #1a02f3;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
